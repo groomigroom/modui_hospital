@@ -1,0 +1,451 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    background-color: #f6fff3;
+    color: #333333;
+    font-family: 'Pretendard';
+}
+
+header {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header object {
+    width: auto;
+    height: 80px;
+    margin: 20px 30px;
+}
+
+.gnb {
+    display: flex;
+    z-index: 999;
+    margin: 80px 30px 0 0;
+    height: 40px;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.gnb a {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    background-color: #e2ffd7;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+}
+
+.gnb:hover {
+    height: 200px;
+}
+
+.gnb.on {
+    border-radius: 20px;
+}
+
+.gnb a:hover {
+    background-color: #618a60;
+    color: #f6fff3;
+}
+
+.slide_part {
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide_train {
+    width: 3600px;
+    height: 480px;
+    display: flex;
+    transition: all 0.6s ease 0s;
+}
+
+.slide {
+    width: 1200px;
+    height: 480px;
+    position: relative;
+}
+
+.slide>p {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    color: #405a3f;
+    text-align: right;
+}
+
+.part {
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.goodjik {
+    width: 600px;
+    height: 480px;
+    position: relative;
+}
+
+
+
+.goodjik>p {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 36px;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.goojik_new {
+    position: absolute;
+    top: 117px;
+    left: 30px;
+    width: 132.95px;
+    height: 30px;
+}
+
+.goojik_pp {
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    top: 177px;
+    left: 30px;
+}
+
+.goojik_pp>p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+}
+
+.goojik_new>img {
+    height: 30px;
+    width: auto;
+}
+
+.goodjik>img {
+    width: auto;
+    height: 450px;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+
+.goodjik_background {
+    width: 600px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.infor {
+    width: 600px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infor_iljong {
+    width: 300px;
+    height: 240px;
+    position: relative;
+}
+
+.infor_iljongpp {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    z-index: 2;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #a5d8a0;
+    color: #6d6d6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infor_iljongpp>p {
+
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
+
+.infor_iljong_background {
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    background-color: #ccffcc;
+}
+
+.infor_iljong>object {
+    width: auto;
+    height: 80px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    pointer-events: none;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+.infor_sogae {
+    width: 300px;
+    height: 240px;
+    position: relative;
+}
+
+.infor_iljongpp_two {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    z-index: 2;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #a5d8a0;
+    color: #6d6d6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infor_iljongpp_two>p {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
+
+.infor_sogae_background {
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #75a072;
+}
+
+.infor_sogae>object {
+    width: auto;
+    height: 80px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    pointer-events: none;
+    transition: all 0.3s ease 0s;
+}
+
+
+.infor_sosik {
+    width: 300px;
+    height: 240px;
+    position: relative;
+}
+
+.infor_yeyak {
+    width: 300px;
+    height: 240px;
+    position: relative;
+}
+
+.osinengil {
+    width: 1200px;
+    height: 464px;
+    margin: 0 auto;
+}
+
+.osinengil_htwo {
+    width: 177.4px;
+    height: 35px;
+    background-color: #75a072;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.osinengil_htwo>h2 {
+    display: inline;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    color: #f3f3f3;
+}
+
+.osinengil_jido {
+    width: 1200px;
+    height: 429px;
+    position: relative;
+}
+
+.osinengil_jido>object {
+    width: 22px;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    left: 680px;
+    z-index: 1;
+    animation: osinengil_jido_object 3s ease 0s infinite;
+}
+
+@keyframes osinengil_jido_object {
+    0% {
+        top: 280px;
+    }
+
+    75% {
+        top: 280px;
+    }
+
+    81.2% {
+        top: 277px;
+    }
+
+    87.4% {
+        top: 280px;
+    }
+
+    93.6% {
+        top: 277px;
+    }
+
+    100% {
+        top: 280px;
+    }
+
+}
+
+.osinengil_jido>img {
+    width: 1200px;
+    height: 429px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    width: 1200px;
+    height: 230px;
+    background-color: #618a60;
+    color: #f6fff3;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer>p {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 160%;
+}
