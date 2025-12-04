@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 90 90">
+  <rect x="40.3215" y="10.4555" width="9.3571" height="90" transform="translate(100.4555 10.4555) rotate(90)" fill="#383838" stroke-width="0"/>
+  <rect x="40.3215" y="13.7966" width="9.3571" height="90" transform="translate(103.7966 13.7966) rotate(90)" fill="#666" stroke-width="0"/>
+  <g>
+    <rect x="19.837" y="54.924" width="4.6785" height="20.8034" transform="translate(44.3526 130.6515) rotate(180)" fill="#666" stroke-width="0"/>
+    <g>
+      <circle cx="22.1763" cy="80.241" r="9.759" fill="#666" stroke-width="0"/>
+      <circle cx="22.1763" cy="80.241" r="5.1122" fill="#fff" stroke-width="0"/>
+      <circle cx="22.1763" cy="80.241" r="2.9587" fill="#383838" stroke-width="0"/>
+    </g>
+  </g>
+  <g>
+    <rect x="65.4844" y="54.924" width="4.6785" height="20.8034" transform="translate(135.6474 130.6515) rotate(180)" fill="#666" stroke-width="0"/>
+    <g>
+      <circle cx="67.8237" cy="80.241" r="9.759" fill="#666" stroke-width="0"/>
+      <circle cx="67.8237" cy="80.241" r="5.1122" fill="#fff" stroke-width="0"/>
+      <circle cx="67.8237" cy="80.241" r="2.9587" fill="#383838" stroke-width="0"/>
+    </g>
+  </g>
+  <rect y="40.9209" width="9.3571" height="22.5542" fill="#fff" stroke-width="0"/>
+  <rect x="80.6429" y="40.9209" width="9.3571" height="22.5542" fill="#fff" stroke-width="0"/>
+</svg>
