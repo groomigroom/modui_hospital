@@ -92,10 +92,18 @@ header {
     justify-content: space-between;
 }
 
+.header_logo {
+    width: 300px;
+    height: 120px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
 header object {
     width: auto;
     height: 80px;
-    margin: 20px 30px;
+    margin-top: 20px;
+    pointer-events: none;
 }
 
 .gnb {
@@ -107,7 +115,7 @@ header object {
     transition: all 0.6s ease 0s;
 }
 
-.gnb a {
+.gnb p {
     display: flex;
     width: 150px;
     height: 40px;
@@ -117,6 +125,11 @@ header object {
     font-weight: 600;
     font-size: 13px;
     letter-spacing: -0.02em;
+    cursor: pointer;
+}
+
+.gnb>ul>li {
+    cursor: pointer;
 }
 
 .gnb:hover {
@@ -127,7 +140,7 @@ header object {
     border-radius: 20px;
 }
 
-.gnb a:hover {
+.gnb p:hover {
     background-color: #618a60;
     color: #f6fff3;
 }
@@ -257,14 +270,14 @@ header object {
     width: 100px;
     height: 30px;
     border-radius: 10px;
-    background-color: #a5d8a0;
-    color: #6d6d6d;
+    background-color: #99917f;
+    color: #fffcf5;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.infor_iljongpp>p {
+.infor_iljongpp>a>p {
 
     font-weight: 600;
     font-size: 14px;
@@ -275,7 +288,7 @@ header object {
     width: 300px;
     height: 240px;
     position: absolute;
-    background-color: #ccffcc;
+    background-color: #fff1d2;
 }
 
 .infor_iljong>object {
@@ -288,6 +301,7 @@ header object {
     z-index: 1;
     pointer-events: none;
     transition: all 0.3s ease 0s;
+
 }
 
 
@@ -307,8 +321,8 @@ header object {
     width: 100px;
     height: 30px;
     border-radius: 10px;
-    background-color: #a5d8a0;
-    color: #6d6d6d;
+    background-color: #99917f;
+    color: #fffcf5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,7 +340,7 @@ header object {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #75a072;
+    background-color: #f2e5c9;
 }
 
 .infor_sogae>object {
@@ -386,50 +400,7 @@ header object {
     position: relative;
 }
 
-.osinengil_jido>object {
-    width: 22px;
-    height: auto;
-    position: absolute;
-    top: 280px;
-    left: 680px;
-    z-index: 1;
-    animation: osinengil_jido_object 3s ease 0s infinite;
-}
 
-@keyframes osinengil_jido_object {
-    0% {
-        top: 280px;
-    }
-
-    75% {
-        top: 280px;
-    }
-
-    81.2% {
-        top: 277px;
-    }
-
-    87.4% {
-        top: 280px;
-    }
-
-    93.6% {
-        top: 277px;
-    }
-
-    100% {
-        top: 280px;
-    }
-
-}
-
-.osinengil_jido>img {
-    width: 1200px;
-    height: 429px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 footer {
     width: 1200px;
@@ -448,4 +419,154 @@ footer>p {
     font-size: 16px;
     letter-spacing: -0.02em;
     line-height: 160%;
+}
+
+#modui_sogae_insamal {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page_select_htwo {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #f3f3f3;
+    background-color: #75a072;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#modui_sogae_doctor_intro {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.modui_sogae_doctor_intro_three_box_train {
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    display: flex;
+}
+
+.modui_sogae_doctor_intro_three_box_one {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    background-color: brown;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.modui_sogae_doctor_intro_three_box_two {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    background-color: rgb(218, 146, 146);
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.modui_sogae_doctor_intro_three_box_three {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 750px;
+    background-color: rgb(88, 247, 109);
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.modui_sogae_doctor_intro_three_box_four {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    background-color: brown;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.modui_sogae_doctor_intro_three_box_five {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    background-color: rgb(218, 146, 146);
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.modui_sogae_doctor_intro_three_box_six {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 750px;
+    background-color: rgb(88, 247, 109);
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.modui_sogae_doctor_intro_three_box_inner {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    background-color: blueviolet;
+}
+
+#modui_sogae_road {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#modui_sogae_gongji {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*도서관꺼 공지사항 표 참고해서 만들기.*/
+#modui_anne_jinryo {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#modui_anne_jinryo_pyo {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#modui_anne_iptuewon {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.modui_anne_iptuewon_iconbox_train {
+    width: 1200px;
+    height: 120px;
+    display: flex;
+}
+
+.modui_anne_iptuewon_iconbox {
+    width: 150px;
+    height: 120px;
+    background-color: cyan;
+}
+
+.modui_anne_iptuewon_arrowbox {
+    width: 30px;
+    height: 30px;
+    background-color: firebrick;
 }
